@@ -1,3 +1,3 @@
 #test
   @test feature
-  Feature: Test 3
+  Feature: Test 4
