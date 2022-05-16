@@ -13,9 +13,9 @@ public class QuizStepDefs {
     @Given("I go to {string} page")
     public void iGoToPage(String url) {
         if(url.equals("login")){
-            getDriver().get("http://ask-qa.portnov.com/#/login");
+            getDriver().get("http://ask-internship.portnov.com/#/login");
         }else if (url.equals("registration")){
-            getDriver().get("http://ask-qa.portnov.com/#/registration");
+            getDriver().get("http://ask-internship.portnov.com/#/registration");
         }else {
             System.out.println("This site is not supported: " + url);
         }
