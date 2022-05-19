@@ -170,7 +170,6 @@ public class Dmytro_V_ACA_725_750_Stepdefs {
     public void submittedQuizIsInPendingStatus() {
         assertThat(getDriver().findElement(By.xpath("//span[contains(text(),'PENDING')]/../..//*[contains(text(),'_Internship Quiz')]")).isDisplayed()).isTrue();
     }
-
 }
 
 

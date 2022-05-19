@@ -2,7 +2,6 @@
 #Author: Dmytro Vereshchak
 @ACA
 Feature: Single Choice Question - Options(ACA-725)/Grading - Quiz with Textual Showstopper question(ACA-750)
-
   Background:
     Given I go to "Login" page
     Then I type "dima.vereschak@gmail.com" into Email field
