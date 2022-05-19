@@ -217,7 +217,6 @@ Feature: Single Choice Question - Options(ACA-725)/Grading - Quiz with Textual S
     Then I wait 5 seconds
 
   @ACA-538
-
 #  Precondition:
 #  Background for Teacher account should be commented
 #  User must have Student account.
