@@ -1,5 +1,4 @@
 #Author: Elmira Grigorovich
-
 @SingleChoiceQuestion
   Feature: Single Choice Question - Other
     Background:
