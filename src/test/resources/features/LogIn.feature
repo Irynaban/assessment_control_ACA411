@@ -1,4 +1,4 @@
-# Created by ks at 4/20/22
+# Created by Said Khalidov  at 4/20/22
 @login
 Feature: Login and Signup test cases
   Background:
