@@ -1,3 +1,5 @@
+#Author: Elmira Grigorovich
+
 @SingleChoiceQuestion
   Feature: Single Choice Question - Other
     Background:
@@ -80,7 +82,7 @@
       And I click button "Save"
       And I wait for 4 sec
       And I check error message "*Choose correct answer" is displayed
-      And I wait for 4 sec
+      And I wait for 3 sec
 
 
 
