@@ -69,11 +69,11 @@ public class Nataliya_Zh_ACA712StepDefs {
     public void iTypeAlphanumericCharactersInPasswordField(String sPassword) {
         getDriver().findElement(By.xpath("//input[@placeholder='Password']")).sendKeys(sPassword);
     }
-    {   @Then("I type alphanumeric characters in Confirm Password field {string}")
+     @Then("I type alphanumeric characters in Confirm Password field {string}")
     public void iTypeAlphanumericCharactersInConfirmPasswordField(String sConfirmPassword) {
         getDriver().findElement(By.xpath("//input[@placeholder='Confirm Password']")).sendKeys(sConfirmPassword);
     }
-        {
+
     @When("I type special characters in Password field {string}")
     public void iTypeSpecialCharactersInPasswordField(String sPassword) {
         getDriver().findElement(By.xpath("//input[@placeholder='Password']")).sendKeys(sPassword);
