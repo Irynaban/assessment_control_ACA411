@@ -13,7 +13,7 @@ import static org.assertj.core.api.Assertions.*;
 import static support.TestContext.getDriver;
 
 
-public class LoginStepDefs {
+public class KhalidovSaid_LoginStepDefs {
     @Given("I open the staging environment main page")
     public void iOpenTheStagingEnvironmentMainPage() {
         getDriver().get(Env.testEnvironmentURL);
@@ -81,6 +81,12 @@ public class LoginStepDefs {
         Login.clickForgotPwd();
     }
 
+    @And("I login with default credentials")
+    public void iLoginWithDefaultCredentials() {
+        Login.fillOutLoginForm();
+        Login.signIn();
+    }
+
     public static class Env {
         public static String testEnvironmentURL = "http://ask-internship.portnov.com/#/login";
         public static String defaultStudentEmail = "pcs.internshipks@gmail.com";
@@ -94,7 +100,7 @@ public class LoginStepDefs {
         }
         public static String emailXpath = "//input[@formcontrolname='email']";
         public static String passwordXpath = "//input[@formcontrolname='password']";
-        public static String signInBtnXpath = "//span[text()='Sign In']";
+        public static String signInBtnXpath = "//button[./span[text()='Sign In']]";
         public static String forgotPwdXpath = "//a[text()='I forgot my password']";
 
         public static void clickForgotPwd() {
