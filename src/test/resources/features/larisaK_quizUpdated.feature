@@ -2,7 +2,7 @@
 #Author: Larisa Kirichenko
 #https://jira.portnov.com/browse/ACA-140
 
-  @quizupdated
+  @quizupdated @regression
   Feature: Automation Test set for "Quiz - Updated At"
     Background:
       Given I go to "Login" page

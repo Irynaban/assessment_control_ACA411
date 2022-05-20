@@ -2,7 +2,7 @@
 #Author: Larisa Kirichenko
 #https://jira.portnov.com/browse/ACA-141
 
-@assignbyname
+@assignbyname @regression
 Feature: Automation Test set for "Assignment - Students by Name"
   Background:
     Given I go to "Login" page

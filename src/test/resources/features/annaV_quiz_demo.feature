@@ -1,4 +1,4 @@
-@quiz
+@quiz @regression
   Feature: Quiz
     Background:
       Given I go to "Login" page

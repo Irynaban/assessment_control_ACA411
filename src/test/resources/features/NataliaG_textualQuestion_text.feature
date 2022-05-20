@@ -2,7 +2,7 @@
 # Story https://jira.portnov.com/browse/ACA-720
 # Author: Natalia Garkusha
 
-@automate
+@automate @regression
 Feature: Textual Question - Text
   Background:
     Given I go to "Login" page

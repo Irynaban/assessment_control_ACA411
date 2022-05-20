@@ -2,7 +2,7 @@
   # https://jira.portnov.com/browse/ACA-153
   #Author: Olena Kravchenko
 
-@studsettpassw
+@studsettpassw @regression
 Feature: Student Settings Password
 
   Background:

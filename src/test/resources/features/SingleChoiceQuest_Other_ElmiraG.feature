@@ -1,5 +1,5 @@
 #Author: Elmira Grigorovich
-@SingleChoiceQuestion
+@SingleChoiceQuestion @regression
   Feature: Single Choice Question - Other
     Background:
       Given I go to "Login" page

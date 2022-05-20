@@ -1,7 +1,7 @@
 #Student Settings Password
   # https://jira.portnov.com/browse/ACA-153
   #Author: Olena Kravchenko
-@quiz
+@quiz @regression
 Feature: Quiz
 Background:
     Given I go to "login" page

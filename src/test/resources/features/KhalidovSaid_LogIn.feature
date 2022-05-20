@@ -1,5 +1,5 @@
 # Created by Said Khalidov  at 4/20/22
-@login
+@login @regression
 Feature: Login and Signup test cases
   Background:
     Given I open the staging environment main page

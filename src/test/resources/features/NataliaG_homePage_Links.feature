@@ -2,7 +2,7 @@
 # Story https://jira.portnov.com/browse/ACA-745
 # Author: Natalia Garkusha
 
-@homePage
+@homePage @regression
 Feature: Home Page - Links
   Background:
     Given I go to "Login" page

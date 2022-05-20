@@ -1,4 +1,4 @@
-@Password/ConfirmPassword
+@Password/ConfirmPassword @regression
 Feature: Password
 
   Background:

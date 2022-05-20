@@ -1,4 +1,4 @@
-@Actual_Points
+@Actual_Points @regression
 Feature: Submission - Actual points
 
   Background:

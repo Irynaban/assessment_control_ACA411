@@ -1,5 +1,5 @@
 # Created by Said Khalidov  at 5/18/22
-@change_students_name
+@change_students_name @regression
 Feature: User's management - Student - Change User's Name Test Cases
   Background: Opening the Settings page (#/settings) is required for every TC
     Given I open the staging environment main page

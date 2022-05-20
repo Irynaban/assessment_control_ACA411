@@ -1,6 +1,6 @@
 #Epic: https://jira.portnov.com/browse/ACA-725/750
 #Author: Dmytro Vereshchak
-@ACA
+@ACA @regression
 Feature: Single Choice Question - Options(ACA-725)/Grading - Quiz with Textual Showstopper question(ACA-750)
   Background:
     Given I go to "Login" page
