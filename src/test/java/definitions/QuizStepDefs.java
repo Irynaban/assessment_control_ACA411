@@ -87,6 +87,7 @@ public class QuizStepDefs {
     @Then("quiz {string} is displayed on the list of quizzes")
     public void quizIsDisplayedOnTheListOfQuizzes(String sQuizname) {
         assertThat(getDriver().findElement(By.xpath("//mat-panel-title[contains(text(),'"+sQuizname+"')]")).isDisplayed()).isTrue();
+
     }
 
     @And("I delete quiz {string}")
