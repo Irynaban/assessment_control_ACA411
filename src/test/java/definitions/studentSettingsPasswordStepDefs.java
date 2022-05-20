@@ -110,4 +110,10 @@ public class studentSettingsPasswordStepDefs {
         getDriver().findElement(By.xpath("//div[contains(text(),'"+sError+"')]")).isDisplayed();
     }
 
+    @Then("I type {string} in {string} and confirm it is hidden")
+    public void iTypeInAndConfirmItIsHidden(String sPassword, String sPasswordField) {
+        getDriver().findElement(By.xpath("//input[@placeholder='"+sPasswordField+"']")).sendKeys(sPassword);
+        String sActualMessage = getDriver().findElement(By.xpath("//input[@placeholder='"+sPasswordField+"']")).getText();
+        Assertions.assertThat(sActualMessage.contentEquals(sPassword));
+    }
 }

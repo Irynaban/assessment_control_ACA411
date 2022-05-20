@@ -187,5 +187,18 @@ Feature: Student Settings Password
     Then error message "Authentication failed. User not found or password does not match" menu is displayed
     Then I click on "Log Out" menu item
 
+  @studsettpassw13
+  Scenario: Hidden Passwords
+    #positive hidden passwords testing: ACA-553, ACA-554, ACA-555
+    Then I type "12345" in "Password" and confirm it is hidden
+    Then I wait for 2 seconds
+    Then I type "12345" in "New Password" and confirm it is hidden
+    Then I wait for 2 seconds
+    Then I type "12345" in "Confirm New Password" and confirm it is hidden
+    Then I wait for 2 seconds
+    Then I click to "Change" button
+    Then "Settings" menu is displayed
+    Then I click on "Log Out" menu item
+
 
 
